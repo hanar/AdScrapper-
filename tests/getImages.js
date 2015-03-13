@@ -1,12 +1,17 @@
 QUnit.test("Getimages test", function(assert) {
+    src = [];
+
     function allSrc() {
-        var src = [];
         //select all the img elements in the page
-        $('img').each(function() {
+        $('iframe img').each(function() {
+            var url = $(this).parent('a').attr('href');
             var img = $(this).attr('src');
-            src.push(img);
+            src.push({
+                img: img,
+                url: url
+            });
         });
         return src;
     }
-    assert.equal(allSrc(), "http://xsltcache.alexa.com/site_stats/gif/t/b/aGVzcHJlc3MuY29t/s.gif", "le résultat de la fonction est correct");
+    assert.equal(allSrc(), src, "le résultat de la fonction est correct");
 });
