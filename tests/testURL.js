@@ -1,7 +1,5 @@
 function testExterneURL(url, hostname) {
-
-    host = hostname.substring(3, url.indexOf("."));
-
+    host=hostname.substr(4);
     if (url.indexOf(host) != -1) {
         return url;
     };
