@@ -6,7 +6,7 @@ function testExterneURL(url, hostname) {
 };
 
 result = testExterneURL("http://www.hespress.com/tendances/257778.html", "www.hespress.com");
-test('allSrc()', function() {
+test('testExterneURL()', function() {
     equal(result, "http://www.hespress.com/tendances/257778.html", "le résultat de la fonction est correct")
 
 });
