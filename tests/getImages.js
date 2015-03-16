@@ -13,5 +13,5 @@ QUnit.test("Getimages test", function(assert) {
         });
         return src;
     }
-    assert.equal(allSrc(), src, "le résultat de la fonction est correct");
+    assert.equal(allSrc(), "t", "le résultat de la fonction est correct");
 });
