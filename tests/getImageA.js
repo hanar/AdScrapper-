@@ -14,3 +14,5 @@ test('allSrc()', function() {
     equal(allSrc(), "http://pagead2.googlesyndication.com/simgad/1584364628406286000", "le résultat de la fonction est correct")
 
 });
+
+
