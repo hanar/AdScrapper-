@@ -30,10 +30,12 @@ page.onLoadFinished = function() {
                     var url = $(this).parent('a').attr('href');
                     //Tester l'appartenance de l'url
                     if (testExterneURL(url, hostname) && testExterneURL(img, hostname)) {
-                        images.push({
-                            img: img,
-                            url: url
-                        });
+                        images.push(img);
+                        /* images.push({
+                             "img": img,
+                             "url": url
+                         });*/
+
                     }
                 });
             });
@@ -42,19 +44,23 @@ page.onLoadFinished = function() {
                 var url = $(this).parent('a').attr('href');
                 var img = $(this).attr("src");
                 if (testExterneURL(img, hostname)) {
-                    images.push({
-                        img: img,
-                        url: url
-                    });
+                    images.push(img);
+                    /* images.push({
+                         "img": img,
+                         "url": url
+                     });*/
                 }
             });
             return images;
         });
         //Sauvegarder résultat dans fichier
         var fs = require('fs');
-        var path = 'ifrimgsa1_4.txt';
-        images_str = JSON.stringify(images);
-        fs.write(path, images_str, 'w');
+        var path = 'img_urls.txt';
+        //images_str = JSON.stringify(images);
+        fs.write(path, images, 'w');
+        //fs.write(path, images_str, 'w');
+
+
 
         console.log("ok");
         phantom.exit();
