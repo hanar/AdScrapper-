@@ -10,10 +10,10 @@ url = system.args[1];
 page.open(url);
 page.onLoadFinished = function() {
 
-    page.injectJs('C:/AdScrapper/external_ressources/jquery/jquery-1.11.2.min.js');
+    page.injectJs('../external_ressources/jquery/jquery-1.11.2.min.js');
 
     //Inclusion du fichier des fontions
-    page.injectJs('C:/AdScrapper/utils/functions.js');
+    page.injectJs('../utils/functions.js');
     images = page.evaluate(function() {
         images = [];
 
@@ -39,6 +39,7 @@ page.onLoadFinished = function() {
     host = page.evaluate(function() {
         return adwalk_getHostname();
     });
+    console.log(host);
     //Sauvegarder résultat dans fichier
     var fs = require('fs');
     var date = new Date();

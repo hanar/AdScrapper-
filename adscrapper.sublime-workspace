@@ -1,0 +1,515 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"proto",
+				"protocol"
+			],
+			[
+				"url",
+				"urlParts"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"t",
+				"today"
+			],
+			[
+				"ho",
+				"host"
+			],
+			[
+				"h",
+				"hostname1"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"con",
+				"convert"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"images",
+				"images_str"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"host",
+				"hostname"
+			],
+			[
+				"test",
+				"testExterneURL"
+			],
+			[
+				"val",
+				"valueToString"
+			],
+			[
+				"js",
+				"jsonObj"
+			],
+			[
+				"inde",
+				"index"
+			],
+			[
+				"loc",
+				"location"
+			],
+			[
+				"Cou",
+				"CoursEnLigne"
+			],
+			[
+				"se",
+				"security-domain"
+			],
+			[
+				"CA",
+				"Candidater"
+			],
+			[
+				"asse",
+				"assertEquals"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"fo",
+				"Format: Php"
+			],
+			[
+				"for",
+				"Format: Php"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:  ",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Indentation: Convert to Tabs"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/AdScrapper/results/hespress.com_2015_22_2_12_33_12.txt",
+		"/C/AdScrapper/utils/functions.js",
+		"/C/AdScrapper/scripts/img_urls.txt",
+		"/C/AdScrapper/results/hespress.com_2015_22_2_12_34_20.txt",
+		"/C/AdScrapper/results/www.hespress.com_2015_22_2_11_58_56.txt",
+		"/C/AdScrapper/scripts/parseUrlPhp.php",
+		"/C/AdScrapper/external_ressources/jquery/uri.js",
+		"/C/AdScrapper/results/hespress.com_2015_21_2_13_30_58.txt",
+		"/C/AdScrapper/avito.ma_2015_20_2_16_23_15.txt",
+		"/C/AdScrapper/results/avito.ma_2015_21_2_13_16_33.txt",
+		"/C/AdScrapper/results/hespress.com_2015_21_2_13_29_24.txt",
+		"/C/AdScrapper/results/avito.ma_2015_21_2_13_26_12.txt",
+		"/C/AdScrapper/results/avito.ma_2015_21_2_13_25_49.txt",
+		"/C/AdScrapper/results/avito.ma_2015_20_21.txt",
+		"/C/AdScrapper/results/avito.ma_2015_20_2_16_23_15.txt",
+		"/C/AdScrapper/hespress.com_2015_21_2_13_30_58.txt",
+		"/C/AdScrapper/results/avito.ma_2015_21_2_13_20_24.txt",
+		"/C/AdScrapper/results/avito.ma_2015_21_2_13_15_25.txt",
+		"/C/AdScrapper/results/jumia.ma_2015_20_21.txt",
+		"/C/AdScrapper/scripts/getSrc.js",
+		"/C/AdScrapper/resultsavito.ma_2015_20_21.txt",
+		"/C/AdScrapper/phantomjsFiles/functions.js",
+		"/C/AdScrapper/phantomjsFiles/getSrc.js",
+		"/C/AdScrapper/phantomjsFiles/addresses.txt",
+		"/C/AdScrapper/phantomjsFiles/exec_cmd.php",
+		"/C/AdScrapper/scripts/avito.ma_2015_20_21.txt",
+		"/C/AdScrapper/phantomjsFiles/downloadImg.php",
+		"/C/AdScrapper/phantomjsFiles/persistImg.php",
+		"/C/AdScrapper/results/hespress.com_2015_20_21.txt",
+		"/C/AdScrapper/scripts/avito.ma.txt",
+		"/C/AdScrapper/external_ressources/jquery/jquery-1.11.2.min.js",
+		"/C/PigeProjects/run-qunit.js",
+		"/C/PigeProjects/Notes",
+		"/C/AdScrapper/phantomjsFiles/img_urls1__.txt",
+		"/C/AdScrapper/phantomjsFiles/downloadImg.js",
+		"/C/AdScrapper/phantomjsFiles/img_urls.txt",
+		"/C/AdScrapper/phantomjsFiles/openFileWebsites.js",
+		"/C/AdScrapper/phantomjsFiles/openFile.js",
+		"/C/AdScrapper/phantomjsFiles/mutlipleAddresses.js",
+		"/C/AdScrapper/phantomjsFiles/functionGetImg.js",
+		"/C/AdScrapper/phantomjsFiles/srcImgIframe.js",
+		"/C/AdScrapper/phantomjsFiles/getImgUrl.js",
+		"/C/AdScrapper/phantomjsFiles/adcollector.txt",
+		"/C/AdScrapper/phantomjsFiles/hespress.txt",
+		"/C/AdScrapper/phantomjsFiles/img_urls1_5_.txt",
+		"/C/AdScrapper/phantomjsFiles/img_urls1_1.txt",
+		"/C/AdScrapper/phantomjsFiles/www.avito.ma.txt",
+		"/C/AdScrapper/phantomjsFiles/avito.ma_2015_19_21.txt",
+		"/C/AdScrapper/utils/functions_php.php",
+		"/C/AdScrapper/phantomjsFiles/avito.ma_2015_19_2.txt",
+		"/C/AdScrapper/phantomjsFiles/hespress.com_2015_19_2.txt",
+		"/C/AdScrapper/phantomjsFiles/file1.txt",
+		"/C/AdScrapper/phantomjsFiles/file1_1.txt",
+		"/C/AdScrapper/phantomjsFiles/jumia.ma_2015_19_2.txt",
+		"/C/AdScrapper/phantomjsFiles/hespress.com_2015_19_21.txt",
+		"/C/AdScrapper/phantomjsFiles/jquery.min.js",
+		"/C/AdScrapper/phantomjsFiles/avito.ma/2015_19_2_.txt",
+		"/C/AdScrapper/phantomjsFiles/hespress.com/2015_19_2_.txt",
+		"/C/AdScrapper/jquery/jquery-1.11.2.min.js",
+		"/C/AdScrapper/phantomjsFiles/urls.txt",
+		"/C/AdScrapper/phantomjsFiles/avito.ma2015/19/2.txt",
+		"/C/AdScrapper/phantomjsFiles/2015/19/2.txt",
+		"/C/AdScrapper/phantomjsFiles/avito.ma.txt",
+		"/C/AdScrapper/phantomjsFiles/selectImg18-03.js",
+		"/C/AdScrapper/tests/testURL.js",
+		"/C/AdScrapper/phantomjsFiles/srcDomaineNew.js",
+		"/C/phantomjs/bin/srcDomaineNew_yass.js",
+		"/E/strider/Be.com/Be.com/ALT/Be.com_custom/modules/be_core/backoffice/controllers/catalogue/brand.php",
+		"/E/strider/Be.com/Be.com/ALT/Be.com_custom/modules/be_core/backoffice/controllers/catalogue/collection.php",
+		"/E/strider/Be.com/Be.com/ALT/Be.com_custom/modules/be_core/backoffice/controllers/catalogue/product.php",
+		"/E/strider/Be.com/Be.com/ALT/Be.com_custom/modules/be_core/backoffice/controllers/contenu/challenges.php",
+		"/E/strider/Be.com/Be.com/ALT/Be.com_custom/modules/be_core/backoffice/controllers/contenu/illustrations.php",
+		"/E/strider/Be.com/Be.com/ALT/Be.com_custom/modules/be_core/backoffice/controllers/contenu/looks.php",
+		"/E/strider/Be.com/Be.com/ALT/Be.com_custom/modules/be_core/backoffice/controllers/contenu/polls.php",
+		"/E/strider/Be.com/Be.com/ALT/Be.com_custom/applications/blog/about/tpl/box/default.tpl",
+		"/E/strider/Be.com/Be.com/ALT/be-adaptator.php",
+		"/E/strider/Be.com/Be.com/ALT/public/js/bootstrap.js",
+		"/E/strider/Be.com/Be.com/ALT/test/webpick/CFArticleTest.php",
+		"/E/strider/Be.com/Be.com/ALT/public/js/demo/dashboard-demo.js",
+		"/E/strider/Be.com/Be.com/ALT/Be.com_private/templates/default/backoffice/common/alert_media_display.tpl",
+		"/E/strider/Be.com/Be.com/ALT/public/js/demo/flot-demo.js",
+		"/E/strider/Be.com/Be.com/ALT/public/club/js.php",
+		"/E/strider/Be.com/Be.com/ALT/Be.com_custom/favicon.ico",
+		"/C/Users/Hana/Downloads/srcDomaineNew_yass.js",
+		"/C/AdScrapper/phantomjsFiles/img_urls1.txt",
+		"/C/PigeProjects/Tests/load.js",
+		"/C/wamp/bin/mysql/mysql5.6.17/my.ini",
+		"/C/wamp/bin/php/php5.5.12/php.ini",
+		"/C/Users/Hana/adcollector.db",
+		"/C/AdScrapper/phantomjsFiles/imgs.txt",
+		"/C/AdScrapper/phantomjsFiles/mytest.js",
+		"/C/AdScrapper/phantomjsFiles/avito.txt",
+		"/C/AdScrapper/phantomjsFiles/fich.txt",
+		"/C/AdScrapper/phantomjsFiles/do.js",
+		"/C/AdScrapper/phantomjsFiles/test.txt",
+		"/C/AdScrapper/phantomjsFiles/yy.txt",
+		"/C/AdScrapper/phantomjsFiles/ifrimgsa1_4.txt",
+		"/C/AdScrapper/phantomjsFiles/imgifrmsrcs.txt",
+		"/C/AdScrapper/phantomjsFiles/ifrimgsa1.txt",
+		"/C/AdScrapper/phantomjsFiles/0yy.txt",
+		"/C/AdScrapper/phantomjsFiles/1yy.txt",
+		"/C/AdScrapper/phantomjsFiles/.txt",
+		"/C/AdScrapper/phantomjsFiles/t.txt",
+		"/C/wamp/www/urls.html",
+		"/C/phantomjs/bin/allImagesHref_new.js",
+		"/C/AdScrapper/pageIframe.html",
+		"/C/AdScrapper/tests/getImgIframe.js",
+		"/C/AdScrapper/run-qunit.js",
+		"/C/AdScrapper/phantomjs-qunit/run-qunit.js",
+		"/C/AdScrapper/tests/getImageA.js",
+		"/C/AdScrapper/index.html",
+		"/C/PigeProjects/load.js",
+		"/C/PigeProjects/srcDomaineNew.js",
+		"/C/PigeProjects/ifrimgsa1_4.txt",
+		"/C/PigeProjects/ifrimgsa1_1.txt",
+		"/C/PigeProjects/ifrimgsa1_2.txt",
+		"/C/PigeProjects/ifrimgsa12.txt",
+		"/C/AdScrapper/PigeProjects/QUnit-CLI/rhino/suite.js",
+		"/C/PigeProjects/ifrimgsa11.txt",
+		"/C/PigeProjects/ifrimgsa1.txt",
+		"/C/PigeProjects/ifrimgsa.txt",
+		"/C/Users/Hana/Downloads/srcDomaineNew.js",
+		"/C/AdScrapper/tests/parseURL.js",
+		"/E/AdScrap/index.html",
+		"/C/Users/Hana/Downloads/getImageA.js",
+		"/C/AdScrapper/tests/getImages.js",
+		"/C/phantomjs/bin/iframeContent.js",
+		"/C/phantomjs/bin/srcDomaine.js"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"E:\\strider\\Be.com\\Be.com"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			",.$",
+			"avito",
+			"testExterneURL",
+			"getHostname",
+			"@@global",
+			"img",
+			"('',",
+			"<img src=\"http://pagead2.googlesyndication.com/simgad/10209933498274246577\" border=\"0\" width=\"191\" height=\"744\" alt class=\"img_ad\">",
+			"images",
+			"[];\n",
+			"images",
+			"urls",
+			"images",
+			"};\n",
+			"isExtern",
+			"iframes",
+			"images",
+			"function",
+			"\n                ",
+			"imageObj",
+			"categorize",
+			"exports",
+			"output",
+			"kantar",
+			"commons-logging",
+			"book",
+			"print c1.titre",
+			"security-domain",
+			"subsystem",
+			"hornet-queue",
+			"jms-connectionfactory",
+			"jms-connectionfacto",
+			"Toast",
+			"20000",
+			"password",
+			"root",
+			"<!-- Page",
+			"mysqli",
+			"php_xsl",
+			"extension=",
+			"phalcon",
+			"error_reporting",
+			"display_startup_errors",
+			"displaystartup_errors",
+			"display_errors",
+			"CF_test_container",
+			"brand",
+			"use Be\\Test\\Unit\\",
+			"HEAD",
+			"CF_DB_PORT",
+			"PHP_PEAR_PHP_BI",
+			"extension",
+			"_dir",
+			"C:\\PROGRA~2\\EASYPH~1.1\\php\\ext\\",
+			"_dir ",
+			"zend",
+			"c:",
+			"extension_",
+			"exten",
+			"phal",
+			"extensio",
+			"phalcon",
+			"extension_",
+			"extension",
+			"currentScreenshot()",
+			"Screenshot",
+			"takeScreenshot",
+			"Screenshot",
+			"shot",
+			"selenium2",
+			"capture",
+			"keys()",
+			"type(",
+			"class PHPUnit_Extensions_Selenium2TestCase_Session",
+			"class PHPUnit_Extensions_Selenium2TestCase_Session ",
+			"class PHPUnit_Extensions_Selenium2TestCase_Session",
+			"class PHPUnit_Extensions_Selenium2TestCase",
+			"class Selenium2TestCase",
+			"Selenium2TestCase",
+			"beaute_hp",
+			"/hp",
+			"Interstitiel",
+			"Banniere basse",
+			"DHTML",
+			"Banniere haute",
+			"/hp",
+			"Interstitiel",
+			"DHTML",
+			"Banniere basse",
+			"MPU bas",
+			"fonction générique",
+			"Vignette",
+			"MPU haut",
+			"MPU bas",
+			">\n",
+			"MPU haut",
+			"Habillage",
+			"Interstitiel",
+			"DHTML",
+			"Banniere basse",
+			"MPU bas",
+			"Vignette",
+			"/hp",
+			"00 MPU haut",
+			"Banniere haute",
+			"banniere",
+			"habillage",
+			"Banniere haute",
+			"habillage",
+			"culture_autres_pages",
+			"habillage",
+			"port",
+			"habillage",
+			"Habillage",
+			"autres_pages",
+			"Habillage",
+			"include-path ",
+			"include-path",
+			"httpPort	",
+			"httpport	",
+			"port"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"urls"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 94.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"managerbrandtest",
+				"Be.com/ALT/Be.com_custom/modules/be_core/test/Unit/Managers/BrandTest.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 177.0,
+	"status_bar_visible": true
+}
