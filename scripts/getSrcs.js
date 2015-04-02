@@ -7,49 +7,29 @@ if (system.args.length === 1) {
     phantom.exit();
 }
 urls = system.args[1];
-myUrls=urls.split(',');
-page.open(urls);
-
+//myUrls est un tableau qui contiendera le contenu de chaque ligne du ficher 'addresses.txt'
+var myUrls = urls.split(',');
+page.open(myUrls[0]);
 page.onLoadFinished = function() {
 
     page.injectJs('../external_ressources/jquery/jquery-1.11.2.min.js');
 
     //Inclusion du fichier des fonctions
     page.injectJs('../utils/functions.js');
+    console.log($('img').length);
     images = page.evaluate(function() {
-        images = [];
-
-        //Récupérer le hostname
-        hostname = adwalk_getHostname();
-
-        $('iframe').each(function() {
-            $(this).contents().find('a img').each(function() {
-
-                result = adwalk_getSrc($(this), hostname);
-                images.push(result);
-
-            });
-        });
-
-        $('a > img').each(function() {
-            result = adwalk_getSrc($(this), hostname);
-            images.push(result);
-        });
-
-        return images;
+        adwalk_page(myUrls);
     });
-    host = page.evaluate(function() {
-        return adwalk_getHostname();
-    });
-    console.log(host);
+    host=myUrls[0];
+
     //Sauvegarder résultat dans fichier
     var fs = require('fs');
     var date = new Date();
     time = date.getFullYear() + '_' + date.getDate() + '_' + date.getMonth() + '_' + date.getHours() + '_' + date.getMinutes() + '_' + date.getSeconds();
-    var path = 'C:/AdScrapper/results/' + host + '_' + time + '.txt';
+    var path = '../results/' + host + '_' + time + '.txt';
     sources = JSON.stringify(images);
     fs.write(path, sources, 'w');
-    console.log("ok");
+
     phantom.exit();
 
 };
