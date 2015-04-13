@@ -8,20 +8,21 @@ function adwalk_parseURL(url) {
     // parser.hostname; // => "example.com"
     return parser.hostname;
 };
-
-function adwalk_getHostname() {
-    return $(location).attr('hostname');
-    
-}
 /*Fonction 'adwalk_getHostname' retourne le hostname de la page courante
 N'est pas utilisé pour le moment
  */
+function adwalk_getHostname() {
+    return $(location).attr('hostname');
+
+}
+
 
 function adwalk_getHostnames(hostnames) {
     //return $(location).attr('hostname');
     //On enleve le premier élément du tableau, vu que le tableau passé 
     //en param est selon le format: urlDeLaPage,hostname1,hostname2..
-    return hostnames.splice(0, 1);
+
+    return hostnames.slice(1);
 }
 
 /* Fonction'adwalk_testExterneURL'
@@ -32,22 +33,26 @@ function adwalk_isExternalURL(url, hostnames) {
         var parser = document.createElement('a');
         parser.href = url;
         host = adwalk_getDomainName(parser.hostname);
-        console.log(hostnames);
-        if ($.isArray(hostnames)) {
+
+        if (adwalk_isArray(hostnames)) {
             $.each(hostnames, function(index, value) {
                 console.log(host + '--' + value);
                 if (host != adwalk_getDomainName(value)) {
+                    console.log('-->OUI');
                     return true;
-                }
+                } else {
+                    console.log('-->NON');
+                    return false
+                };
             });
-            return false;
+
         } else {
 
             console.log("not an array  " + host + '---' + adwalk_getDomainName(hostnames));
-            if (host == adwalk_getDomainName(hostnames)) {
-                return false;
-            } else {
+             if (host != adwalk_getDomainName(hostnames)) {
                 return true;
+            } else {
+                return false;
             }
         }
     }
@@ -58,8 +63,7 @@ function adwalk_isExternalURL(url, hostnames) {
     Retourne un objet JSON
     */
 function adwalk_getSrc(img, hostnames) {
-        hostnames = adwalk_getHostnames(hostnames);
-        console.log(hostnames);
+        //hostnames = adwalk_getHostnames(hostnames);
         var url = img.parent('a').attr('href');
         var src = img.attr('src');
         if (adwalk_isExternalURL(src, hostnames)) {
@@ -67,7 +71,7 @@ function adwalk_getSrc(img, hostnames) {
                 "src": src,
                 "url": url
             });
-        } else return false;
+        } 
     }
     /*Fonction adwalk_getDomainName 
     Retourne le domain à partir du hostname
@@ -86,25 +90,47 @@ function adwalk_getDomainName(hostname) {
 
 function adwalk_page(hostnames) {
     images = [];
-
     //Récupérer les hostnames avec lesquels on comparera le src de l'image
-    hostnames = adwalk_getHostnames(hostnames);
-    console.log('hostnames:' + hostnames);
+    removed = hostnames.shift();
+    console.log('removed element:' + removed);
+    /* for (i = 0; i < hostnames.length; i++) {
+           console.log('element'+i+':'+hostnames[i]);
+       }return false;*/
+
+
     $('iframe').each(function() {
-        console.log($(this).contents().find('a img').length);
+        console.log('Reading iframe ' + $(this).attr('src'));
+        //console.log($(this).contents().find('a img').length);
         $(this).contents().find('a img').each(function() {
             //Appel de la fonction getSrc
             result = adwalk_getSrc($(this), hostnames);
             if (result)
                 images.push(result);
-
+            else {
+                console.log("iframe: no image to add ");
+            }
         });
     });
 
     $('a img').each(function() {
         result = adwalk_getSrc($(this), hostnames);
-        if (result) images.push(result);
+        if (result) 
+            images.push(result);
+        else {
+            console.log("a img: no image to add");
+        }
     });
 
     return images;
+}
+
+function adwalk_isArray(something) {
+    if ($.isArray(something)) {
+        return true;
+    } 
+    /* if (typeOf something == 'Object' && something.length > 0) {
+         return true;
+     } else {
+         return false;
+     }*/
 }
