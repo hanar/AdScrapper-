@@ -1,4 +1,4 @@
-/*//Test de la fonction adwalk_getDomainName()
+//Test de la fonction adwalk_getDomainName()
 test('adwalk_getDomainName()', function() {
     result = adwalk_getDomainName('www.hespress.com');
     equal(result, 'hespress.com')
@@ -43,7 +43,7 @@ test('adwalk_isExternalURL()', function() {
 test('adwalk_getSrc()', function() {
     result= adwalk_getSrc();
     equal(result)
-});*/
+});
 //Test de adwalk_page
 
 //Test adwalk_isArray
